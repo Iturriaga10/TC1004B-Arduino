@@ -43,7 +43,7 @@ void loop() {
   digitalWrite(11, HIGH);
   // Encendedido Pin 9.
   digitalWrite(9, HIGH);
-  // Llamado funcion parpadear Pin 12, Pin 10.
+  // Llamado función parpadear Pin 12, Pin 10.
   parpadearFor(12, 10);
 
   // Apagado Pin 13.
@@ -52,6 +52,6 @@ void loop() {
   digitalWrite(11, LOW);
   // Apagado Pin 9.
   digitalWrite(9, LOW);
-  // Llamado funcion parpadear Pin 12, Pin 10.
+  // Llamado función parpadear Pin 12, Pin 10.
   parpadearWhile(12, 10);
 }
