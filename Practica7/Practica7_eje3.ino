@@ -1,7 +1,7 @@
 //Ejercicio 3
 //Con ayuda de tu profesor:
 //1. Configura el pin A0 como entrada analógica, y el monitor serial a 9600 baudios.
-//1. Configura el pin A0 como entrada analógica, y el monitor serial a 9600 baudios.
+//2. Configura el pin A0 como entrada analógica, y el monitor serial a 9600 baudios.
 //3. Lee el valor de la entrada analógica A0 y muestra el valor por el monitor serial.
 void setup() {
   Serial.begin(9600);

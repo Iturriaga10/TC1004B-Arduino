@@ -1,5 +1,6 @@
 //Ejercicio 1
 //Con ayuda de tu profesor:
+//1. Configura el pin A0 como entrada analógica, y el monitor serial a 9600 baudios.
 //2. Conecta tu sensor MQ135 a tu Arduino.
 //3. Lee el valor de la entrada analógica A0 y muestra el valor por el monitor serial.
 void setup() {
