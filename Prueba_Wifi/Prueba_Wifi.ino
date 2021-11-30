@@ -1,3 +1,4 @@
+#include <ArduinoHttpClient.h>
 #include <ArduinoJson.h>
 #include <WiFiNINA.h>
 
@@ -6,7 +7,7 @@ char password[] = "1turr1aga";
 
 int status = WL_IDLE_STATUS;
 
-char server[] = "1711-187-189-127-57.ngrok.io";    //Always modify when re-run ngrok
+char server[] = "";    //Always modify when re-run ngrok
 
 WiFiClient client;
 
